@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=BootMVCProject1-MiniProject-CURDOperation-2/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.nit.service{IEmployeeService.java[IEmployeeService" modifiers="513" timestamp="1683690983754"/>
+    <typeInfo handle="=BootMVCProjectForSourve-MiniProject-CURDOperation/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.nit.service{IStudentService.java[IStudentService" modifiers="513" timestamp="1683710454777"/>
+    <typeInfo handle="=BootMVCProject1-MiniProject-CURDOperation-2/C:\/Users\/jenas\/.m2\/repository\/org\/springframework\/data\/spring-data-commons\/2.7.11\/spring-data-commons-2.7.11.jar=/maven.pomderived=/true=/=/org.eclipse.jst.component.archivename=/spring-data-commons-2.7.11.jar=/=/maven.groupId=/org.springframework.data=/=/maven.artifactId=/spring-data-commons=/=/maven.version=/2.7.11=/=/maven.scope=/compile=/=/maven.pomderived=/true=/=/org.eclipse.jst.component.dependency=/\/WEB-INF\/lib=/&lt;org.springframework.data.repository(CrudRepository.class[CrudRepository" modifiers="1537" timestamp="1683203691423"/>
+</typeInfoHistroy>

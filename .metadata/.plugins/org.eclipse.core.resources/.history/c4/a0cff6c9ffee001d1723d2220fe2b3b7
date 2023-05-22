@@ -1,0 +1,17 @@
+package com.nit.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.nit.service.IClarkService;
+
+@Controller
+public class ClarkController {
+
+	private IClarkService ick;
+	
+	@RequestMapping("/clark")
+	public String showPage() {
+		return "home";
+	}
+}

@@ -1,0 +1,11 @@
+package com.nit.service;
+
+import com.nit.entity.Clark;
+import com.nit.entity.Student;
+
+public interface IClarkService {
+    
+	public String insertClark(Clark clark);
+	
+	public Iterable<Clark>getAllStudents();
+}

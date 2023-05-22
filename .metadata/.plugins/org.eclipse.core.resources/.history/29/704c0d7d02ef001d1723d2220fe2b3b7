@@ -1,0 +1,27 @@
+package com.nit.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.nit.entity.Clark;
+
+import com.nit.service.IClarkService;
+
+@Controller()
+public class ClarkController {
+
+	@Autowired
+	private IClarkService ick;
+	
+	@GetMapping("/clark")
+	public String showPage() {
+		return "home";
+	}
+	@RequestMapping("/save")
+	public String resisterStudent(@ModelAttribute("clk")Clark clk){
+	return "register_student";
+}
+}

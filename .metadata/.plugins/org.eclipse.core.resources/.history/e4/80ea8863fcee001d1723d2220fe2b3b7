@@ -1,0 +1,12 @@
+package com.nit.service;
+
+import org.springframework.stereotype.Service;
+
+import com.nit.repository.ClarkRepository;
+@Service()
+public class ClarkService implements IClarkService {
+
+	private ClarkRepository ckRpo;
+	
+	
+}

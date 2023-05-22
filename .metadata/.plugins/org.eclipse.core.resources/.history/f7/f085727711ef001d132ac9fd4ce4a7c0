@@ -1,0 +1,34 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<c:choose>
+ <c:when test="${!empty empsList }">
+      <h1 style="color:red;text-align:center">Employees Report</h1>
+      <table border=1 align="center" bgcolor="cyan">
+      <tr style="color:red"><th>id</th><th>name</th> <th>colageName</th><th>balance</th><th>RegdNo</th>
+      
+      <c:forEach var="std" items="${sel }">
+      <tr style="color:blue">
+      <td>${std.id}</td>
+      <td>${std.name }</td>
+      <td>${std.colageName }</td>
+      <td>${std.balance }</td>
+      <td>${std.RegdNo }</td>
+      </tr>
+      </c:forEach>
+      
+      </table>
+      
+       </c:when>
+       <c:otherwise>
+       <h1>not respond</h1>
+       </c:otherwise>
+       </c:choose>
+</body>
+</html>
